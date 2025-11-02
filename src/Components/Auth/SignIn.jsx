@@ -147,17 +147,13 @@ const SignIn = () => {
           </button>
         </form>
 
-        <div className={styles.switchAuth}>
-          <span>Don't have an account?</span>
-          {/* Use programmatic navigation to avoid cases where anchor navigation is blocked by overlays or handlers */}
-          <button
-            type="button"
-            className={styles.link}
-            onClick={() => navigate('/signup')}
-          >
-            Sign Up
-          </button>
-        </div>
+       <div className={styles.switchAuth}>
+  <span>Don't have an account?</span>
+  <Link to="/signup" className={styles.signUpButton}>
+  Sign Up
+</Link>
+
+</div>
       </div>
     </div>
   );

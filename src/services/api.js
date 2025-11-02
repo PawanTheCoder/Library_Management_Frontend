@@ -1,5 +1,5 @@
-const API_BASE_URL = 'http://localhost:8080';
-
+const API_BASE_URL = import.meta?.env?.VITE_API_BASE_URL || 'https://lms-backend-2-7pjx.onrender.com';
+// http://localhost:8080/api
 class ApiService {
   constructor() {
     this.baseURL = API_BASE_URL;

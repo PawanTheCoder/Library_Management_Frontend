@@ -823,3 +823,7 @@ input:disabled {
         transform: none !important;
     }
 }
+
+.Redirect:hover {
+    transform: scale(1.2);
+}

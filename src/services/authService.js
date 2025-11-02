@@ -1,5 +1,5 @@
 // API configuration
-const API_BASE_URL = 'http://localhost:8080/api';
+const API_BASE_URL = 'https://lms-backend-2-7pjx.onrender.com/api';
 
 // Authentication endpoints
 const login = async (username, password) => {
