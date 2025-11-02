@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta?.env?.VITE_API_BASE_URL || 'https://lms-backend-2-7pjx.onrender.com';
+const API_BASE_URL = 'https://lms-backend-2-7pjx.onrender.com';
 // http://localhost:8080/api
 class ApiService {
   constructor() {
